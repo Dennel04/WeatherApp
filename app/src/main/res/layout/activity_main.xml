@@ -57,6 +57,9 @@
                 android:text="Узнать погоду"
                 android:textAllCaps="false"/>
         </LinearLayout>
+
+
+
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -81,6 +84,18 @@
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
                 android:lineSpacingExtra="8dp"/>
+            <Button
+                android:id="@+id/btnFavorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⭐"
+                android:textSize="24sp"
+                android:layout_below="@id/etCity"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="Добавить в избранное"
+                android:background="@drawable/button_border"
+                android:visibility="gone" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
