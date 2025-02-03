@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Базовая (светлая) тема -->
+    <style name="Theme.WeatherApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="editTextBackground">@drawable/edit_text_background_light</item>
+
+        <item name="android:windowBackground">@color/background_light</item>
+        <item name="cardBackgroundColor">@color/card_background_light</item>
+        <item name="android:textColor">@color/text_primary_light</item>
+        <item name="android:textColorSecondary">@color/text_secondary_light</item>
+        <item name="android:editTextColor">@color/text_primary_light</item>
+        <item name="android:textColorHint">@color/text_secondary_light</item>
+    </style>
+</resources>
